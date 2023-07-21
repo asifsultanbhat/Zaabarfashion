@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ZAABAR FASHION | Baby Products Online Kashmir: Newborn Baby Products & Kids Online Shopping</title>
+  <style>
+    /* Reset default margin and padding for the entire document */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1; /* Set the background color for the whole page */
+    }
+
+    /* Grid container for the layout */
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 0; /* Remove spacing between grid items */
+      max-width: calc(100% - 25px); /* Decrease the max-width by 25px to make the content smaller */
+      margin: 0 auto;
+      background-color: #fff; /* Set a white background for the content container */
+      padding: 20px; /* Add some padding around the content */
+    }
+
+    /* Styles for the first line container */
+    .first-line {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #ff62a9;
+      padding: 10px;
+    }
+
+    /* Styles for the logo */
+    .logo {
+      width: 200px;
+      height: 50px;
+      object-fit: fill;
+    }
+
+    /* Styles for the search container */
+    .search-container {
+      position: relative;
+    }
+
+    /* Styles for the search input */
+    .search {
+      font-size: 16px;
+      padding: 8px 45px 8px 10px; /* Add padding on the right to make space for the icon */
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      background-color: #f8f8f8;
+      width: 300px;
+    }
+
+    /* Styles for the search icon */
+    .search-icon {
+      position: absolute;
+      top: 50%;
+      right: 15px;
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+
+    /* Styles for the "ZAABAR FASHION" heading */
+    .heading {
+      font-size: 24px;
+      font-weight: bold;
+      color: #212121;
+      margin-left: 20px;
+    }
+
+    /* Styling for images and video */
+    img,
+    video {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Styles for the row of images */
+    .row {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+      padding: 0; /* Remove padding between images in the row */
+    }
+
+    .row img {
+      width: 33.3%;
+      margin: 0; /* Reset margin for images inside .row */
+    }
+
+    /* Style for the video */
+    video {
+      width: 500px;
+      margin: 0 auto; /* Center the video horizontally */
+    }
+
+    /* Style for the Shop Now button */
+    .shop-now-button {
+      display: block;
+      margin: 20px auto 0; /* Add some top margin to the button */
+      width: 280px;
+      padding: 12px 20px;
+      background-color: #f773b5;
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 30px;
+      transition: background-color 0.3s;
+    }
+
+    /* Hover effect for the Shop Now button */
+    .shop-now-button:hover {
+      background-color: #ff62a9;
+    }
+
+    /* Styles for individual social media buttons */
+    .social-icons {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      margin-right: 5px;
+      color: white;
+      background-color: #3B5998;
+      border-radius: 50%;
+      width: 35px; /* Increased from 30px to 35px */
+      height: 35px; /* Increased from 30px to 35px */
+      font-size: 25px; /* Increased from 20px to 25px */
+      text-align: center;
+      line-height: 35px; /* Increased from 30px to 35px */
+      text-decoration: none;
+    }
+
+    /* WhatsApp button style */
+    .whatsapp-button {
+      display: inline-block;
+      margin-right: 5px;
+      color: white;
+      background-color: #25d366;
+      border-radius: 50%;
+      width: 35px; /* Increased from 30px to 35px */
+      height: 35px; /* Increased from 30px to 35px */
+      font-size: 25px; /* Increased from 20px to 25px */
+      text-align: center;
+      line-height: 35px; /* Increased from 30px to 35px */
+      text-decoration: none;
+    }
+  </style>
+  <!-- Add Font Awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="grid-container">
+    <div class="first-line">
+      <img class="logo" src="/images/ZF4.jpg" alt="ZAABAR FASHION Logo">
+      <div class="search-container">
+        <!-- Change the form action to Google's search page and set method to GET -->
+        <form id="searchForm" action="https://www.google.com/search" method="GET" target="_blank">
+          <input type="search" class="search" name="q" placeholder="Search our best products" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <!-- Search icon from Icons8 link -->
+          <a target="_blank" href="https://icons8.com/icon/12773/search" class="search-icon" onclick="submitSearchForm()">
+            <img src="https://img.icons8.com/windows/32/000000/search.png" alt="Search">
+          </a>
+        </form>
+      </div>
+      <div class="heading">ZAABAR FASHION | Kashmirs Best Online Store For Kids</div>
+      <!-- Social media buttons -->
+      <div class="social-icons">
+        <a href="https://www.facebook.com/ZAABARFASHION/" class="fa fa-facebook" target="_blank" ></a>
+        <a href="https://www.google.com/search?q=Zaabar+Fashion&stick=H4sIAAAAAAAA_-NgU1IxqDC2SDW0MElLNUlMM0tKSk2yMqhItjROSzI0TTUzMzM1M09ZxMoXlZiYlFik4JZYnJGZnwcAWOaoqjkAAAA&hl=en-GB&mat=CTbpiY7KA6uYElYBeenfiJFyJycPPi-APwJw_PTAo3VGlRaLqCjTf_8AXP_x7gK9gYB8vShrdWW7jPN5uM0b8yVBr7PtFh5EfQ_mo8G-v4KtIO-xp-L1uFHkC09hz0pvyg&authuser=0" class="fa fa-google" target="_blank"></a>
+        <a href="https://www.instagram.com/zaabarfashion/" class="fa fa-instagram" target="_blank"></a>
+        <a target="_blank" href="https://wa.me/7889409486" class="whatsapp-button" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <img class="banner" src="/images/ZF2.jpg" alt="">
+    <img class="ZF1" src="/images/ZF1.jpg" alt="">
+
+    <div class="row">
+      <img class="IMG11" src="/images/ZF6.jpg" alt="">
+      <img class="IMG22" src="/images/NEW.jpg" alt="">
+      <img class="IMG33" src="/images/SALE1.png" alt="">
+    </div>
+    <video id="myVideo" width="200" autoplay muted>
+      <source src="/images/video2.mp4" type="video/mp4">
+    </video>
+
+    <!-- Shop Now button with link -->
+    <a href="https://myhitechstore.com/store/zaabarfashion" class="shop-now-button" target="_blank">Shop Now</a>
+  </div>
+
+  <script>
+    // Auto replay the video when it ends
+    const video = document.getElementById('myVideo');
+
+    video.addEventListener('ended', function () {
+      this.currentTime = 0;
+      this.play();
+    });
+
+    // Function to submit the search form when the search icon is clicked
+    function submitSearchForm() {
+      document.getElementById('searchForm').submit();
+    }
+  </script>
+</body>
+</html>
